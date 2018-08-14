@@ -7,8 +7,10 @@ HTTP(S) Benchmark Tools
 * [__ab__](http://en.wikipedia.org/wiki/ApacheBench) – slow and single threaded, written in `C`
 * [__apib__](https://github.com/apigee/apib) – most of the features of ApacheBench (`ab`), also designed as a [more modern replacement](https://github.com/apigee/apib#design), written in `C`
 * [__baloo__](https://github.com/h2non/baloo) – Expressive end-to-end HTTP API testing made easy, written in Go (`golang`)
+* [__baton__](https://github.com/americanexpress/baton) – HTTP load testing, written in Go (`golang`)
 * [__bombardier__](https://github.com/codesenberg/bombardier) – Fast crossplatform HTTP benchmarking tool, written in Go (`golang`)
 * [__curl-loader__](http://curl-loader.sourceforge.net/) – performance loading of various application services and traffic generation, written in `C`
+* [__drill__](https://github.com/fcsonline/drill) – Drill is a HTTP load testing application inspired by Ansible syntax, written in `Rust`
 * [__fasthttploader__](https://github.com/hagen1778/fasthttploader) – benchmark (kinda ab) with autoadjustment and charts based on fasthttp library, write in Go (`golang`)
 * [__fortio__](https://github.com/istio/fortio) – load testing library and command line tool and web UI. Allows to specify a set query-per-second load and record latency histograms and other useful stats, write in Go (`golang`)
 * [__gatling__](http://gatling.io) – High performance load testing framework based on Scala, Akka and Netty, write in `Scala`
@@ -21,6 +23,7 @@ HTTP(S) Benchmark Tools
 * [__httperf__](https://github.com/httperf/httperf) – difficult configuration, slow and single threaded, written in `C`
 * [__inundator__](https://github.com/opsengine/inundator) – A simple and high-throughput HTTP flood program, written in `C`/`Linux`
 * [__jmeter__](http://jmeter.apache.org/) – Apache  JMeter™, pure application designed to load test performance both on static and dynamic resources, written in `Java`
+* [__k6__](https://github.com/loadimpact/k6) - A modern load testing tool scriptable in ES6 JS with support for HTTP/1.1, HTTP/2.0 and WebSocket, written in Go (`golang`)
 * [__locust__](https://locust.io/) – easy-to-use, distributed load testing tool with real-time web UI. Simulates a swarm of concurrent users, the behavior of each of them is defined by your python code. Written in `Python`
 * [__mgun__](https://github.com/byorty/mgun) – A modern tool for load testing HTTP servers, written in Go (`golang`)
 * [__pounce__](https://github.com/X4/pounce) – evented, but results fluctuate, it's sometimes faster than `htstress`, written in `C`
@@ -47,11 +50,12 @@ Toolkit for testing/debugging HTTP(S) and restAPI (RESTful)
   - [Online curl command line builde](https://curlbuilder.com/)
 * [__curlconverter__](https://github.com/NickCarneiro/curlconverter) – convert curl commands to python, javascript, php
 * [__httpie__](https://github.com/jkbrzt/httpie) – client, user-friendly curl replacement with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, written in `Python`
+  * [__curl-httpie__](https://github.com/rs/curl-httpie) – If you like the interface of [HTTPie](https://httpie.org) but miss the features of [curl](https://curl.haxx.se), curl-httpie is what you are searching for. Curl-httpie is a drop-in replacement for `httpie` that use `curl` to perform operations, written in Go (`golang`)
+* [__jaggr__](https://github.com/rs/jaggr) – JSON Aggregation CLI, Jaggr can be used to integrate [vegeta](https://github.com/tsenart/vegeta) with [jplot](https://github.com/rs/jplot), written in Go (`golang`)
 * [__jq__](https://github.com/stedolan/jq) – is a lightweight and flexible command-line JSON processor, written in `C`
 
 SaaS/PaaS
 =========
-* [__blitz.io__](https://www.blitz.io/) – an easy solution to load and performance testing from the Cloud. Test scaliability on websites, mobile, web apps and REST APIs.
 * [__BlazeMeter__](https://blazemeter.com/) – offers a cross-enterprise test automation framework for the entire technical team (developers, devops, ops and QA) throughout the product development lifecycle. Run continuous or ‘on demand’ testing for APIs, mobile apps and websites. Run from the cloud, on-premise or as a hybrid solution. Use with JMeter &amp; Selenium WebDriver &amp; integrate with your existing CI, CD &amp; APM tools.
 * [__NewRelic__](http://newrelic.com/) – software analytics tool suite used by developers, ops, and software companies to understand how your applications are performing in development and production
 * [__NGINX Amplify__](https://amplify.nginx.com/) – Visually identify performance bottlenecks, overloaded servers, or potential DDoS attacks. Improve and optimize NGINX performance with intelligent advice and recommendations. Get alerts when something is wrong with the delivery of your application. Plan capacity and performance for web applications. Keep track of systems running NGINX [<sup>1</sup>](https://www.nginx.com/blog/announcing-amplify/)
